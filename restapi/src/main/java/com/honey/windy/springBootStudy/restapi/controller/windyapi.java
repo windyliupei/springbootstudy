@@ -20,5 +20,11 @@ public class windyapi {
         return "This is post response";
     }
 
+    //get 和 delete 都可以映射这个方法，但是和上面的get会产生奇异性
+    @RequestMapping(value = {"/get","/delete"},method = RequestMethod.GET)
+    public String multipleMapping(){
+        return "This is post get or delete";
+    }
+
 
 }
