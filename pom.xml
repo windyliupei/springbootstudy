@@ -6,7 +6,7 @@
 	<groupId>com.honey.windy.springBootStudy</groupId>
 	<artifactId>springbootstudy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>springbootstudy</name>
 	<description>Demo project for Spring Boot</description>
@@ -50,6 +50,7 @@
 		<module>start</module>
 		<module>restapi</module>
 		<module>springmvc</module>
-	</modules>
+        <module>quartzStudy</module>
+    </modules>
 
 </project>
